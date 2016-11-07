@@ -4,7 +4,7 @@ public class Bubbles {
 
 	public static void main(String [] args) {
 
-		int[] a = {4, 7, 2, 9, 0, 1, 9, 12 ,56 ,78};
+	int[] a = {4, 7, 2, 9, 0, 1, 9, 12 ,56 ,78};
     	boolean swap = false;
     	int k;
 
@@ -26,5 +26,5 @@ public class Bubbles {
 
     	System.out.print(Arrays.toString(a));
 
-    }
+	}
 }
