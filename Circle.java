@@ -6,14 +6,16 @@ public class Circle {
 		int x0 = Integer.parseInt (args[2]);
 		int y0 = Integer.parseInt (args[3]);
 		int r = Integer.parseInt (args[4]);
-
-			if(((x - x0) * (x - 0) + (y - y0)) < r * r) {
-				System.out.println ("Dot on circle");	
-			}
-			else {
-
-				System.out.println ("Dot out of circle");
-				
+	        int s = (x - x0) * (x - x0) + (y - y0) * (y - y0);
+		r = r * r;
+			if (s < r) { 
+                		System.out.println("Point in the circle"); 
+            		}
+			if (s > r) { 
+                		System.out.println("Point is not on the circle"); 
+            		}
+            		if (s == r) { 
+                		System.out.println("Point on the circle"); 
 			}
 	}
 }
