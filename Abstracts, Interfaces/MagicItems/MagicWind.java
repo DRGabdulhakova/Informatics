@@ -1,5 +1,9 @@
-public class MagicWind implements Protecting, Attacking {
-
+public class MagicWind implements WIzard {
+	@Override 
+	public void conjure() {
+		System.out.println("It's time to conjure something or fight with someone");
+	}
+	
 	@Override
 	public void protect() {
 		System.out.println("Protego!");
